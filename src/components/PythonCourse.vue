@@ -4,8 +4,8 @@
     <div class="row mt-5">
       <div class="col-lg-3 col-sm-12 col-md-6">
         <div class="card">
-          <img alt="Image placeholder" src="./icons/Python-Symbol.png" class="img-fluid course-img bg-gradient-dark
-          opacity-6">
+          <img alt="Image placeholder" src="../assets/icons/python.png" class="img-fluid course-img bg-gradient-dark
+          opacity-9">
           <div class="card-body">
             <a href="#" class="d-block h5">Python Programming for Beginners</a>
             <h5 class="mt-4"><span class="woocommerce-Price-currencySymbol text-dark">৳&nbsp;</span>4,000</h5>
@@ -17,9 +17,9 @@
             </div>
             <p class="mt-3"><a href="https://docs.google.com/document/d/1cz6K8m4qRJxWdEVpaQfeo4x_MzSkVkQRmevBw0R4gbs/edit?usp=sharing"><u><img
                  src="../assets/icons/link.png" alt=""> সিলেবাস দেখুন</u></a></p>
-            <button type="button" class="btn btn-secondary disabled mt-2 w-100">
-              রেজিস্ট্রেশন বন্ধ আছে
-            </button>
+            <a href="https://tally.so/r/wMePZX?course_name=dive-into=python" type="button" class="btn btn-info mt-2 w-100 hover-shadow-lg">
+              রেজিস্ট্রেশন করুন
+            </a>
           </div>
         </div>
       </div>
@@ -40,6 +40,9 @@ export default {
   margin-right: 20px;
   color: #343b6d;
 }
+.btn-info{
+  background-color: #354895 !important;
+}
 
 .card {
   border-radius: 10px;
@@ -48,7 +51,7 @@ img{
   height: 30px;
 }
 .course-img {
-  height: 10rem;
+  height: 12rem;
   width: 100%;
 }
 

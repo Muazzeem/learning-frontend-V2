@@ -41,7 +41,7 @@
                   <h5 class="text-white">কোর্সের মূল্য</h5>
                 </div>
                 <div>
-                  <h4 class="text-white">৳ ৩,০০০</h4>
+                  <h4 class="text-white">৳ ৫০০</h4>
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@ img{
 
 @media (min-width: 1025px) {
   .course-card {
-    padding: 1.5rem;
+    padding: .5rem;
   }
 }
 @media (max-width: 989px) {
